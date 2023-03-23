@@ -233,18 +233,18 @@ input:focus {
   font-weight: 400;
 }
 
-.kanit-normal-asphalt-28px {
-  color: var(--asphalt);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .kanit-normal-mosque-24px {
   color: var(--mosque);
   font-family: var(--font-family-kanit);
   font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.kanit-normal-asphalt-28px {
+  color: var(--asphalt);
+  font-family: var(--font-family-kanit);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -352,7 +352,6 @@ input:focus {
 
 .home .exit-xl4bh6 {
   background-color: transparent;
-  cursor: pointer;
   height: 62px;
   left: 339px;
   mix-blend-mode: normal;
@@ -379,14 +378,12 @@ input:focus {
 }
 
 .home .my-website-xl4bh6 {
-margin-top: 10px;
   background-color: transparent;
-  text-align: center;
   color: #0c175b;
   font-family: var(--font-family-inter);
-  font-size: 2rem;
-  font-style: bold;
-  font-weight: 2rem;
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
   height: auto;
   left: 96px;
   letter-spacing: 0.00px;
@@ -402,9 +399,9 @@ margin-top: 10px;
 .home .my-websiteby-latte-xl4bh6 {
   -webkit-text-stroke: 1px var(--white);
   background-color: transparent;
-  color: white;
+  color: var(--white);
   font-family: var(--font-family-inter);
-  font-size: 1.5rem;
+  font-size: var(--font-size-xxxxxl);
   font-style: normal;
   font-weight: 400;
   height: auto;
@@ -439,6 +436,164 @@ margin-top: 10px;
   position: absolute;
   top: 24px;
   width: 46px;
+}
+
+/* screen - iphone-14-pro-12 */
+
+.iphone-14-pro-12 {
+  background-color: transparent;
+  border: 1px none;
+  cursor: pointer;
+  height: 932px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 430px;
+}
+
+#overlay-iphone-14-pro-12 {
+  align-items: center;
+  background-color: #ffffff00;
+  justify-content: center;
+}
+
+.iphone-14-pro-12 .i-phone-14-pro-12-TDn9Gw {
+  background-color: transparent;
+  height: 932px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+  width: 430px;
+}
+
+.iphone-14-pro-12 .rectangle-1-yoxXcI {
+  background-color: transparent;
+  cursor: pointer;
+  height: 85px;
+  left: 12px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 418px;
+}
+
+.iphone-14-pro-12 .mask-group-4-yoxXcI {
+  background-color: transparent;
+  cursor: pointer;
+  height: 52px;
+  left: 18px;
+  position: absolute;
+  top: 17px;
+  width: 52px;
+}
+
+.iphone-14-pro-12 .mask-group-7-yoxXcI {
+  background-color: transparent;
+  height: 40px;
+  left: 362px;
+  position: absolute;
+  top: 23px;
+  width: 40px;
+}
+
+.iphone-14-pro-12 .icon-mail-yoxXcI {
+  background-color: transparent;
+  height: 40px;
+  left: 294px;
+  position: absolute;
+  top: 23px;
+  width: 40px;
+}
+
+.iphone-14-pro-12 .icon-notifications-yoxXcI {
+  background-color: transparent;
+  height: 40px;
+  left: 233px;
+  position: absolute;
+  top: 24px;
+  width: 33px;
+}
+
+.iphone-14-pro-12 .group-47-yoxXcI {
+  background-color: transparent;
+  cursor: pointer;
+  height: 154px;
+  left: 9px;
+  position: absolute;
+  top: 85px;
+  width: 421px;
+}
+
+.iphone-14-pro-12 .group-46-37jfdX {
+  background-color: transparent;
+  height: 154px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 425px;
+}
+
+.iphone-14-pro-12 .rectangle-183-mbYH4L {
+  background-color: var(--white);
+  box-shadow: 0px 5px 9px #189487f0;
+  height: 154px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 421px;
+}
+
+.iphone-14-pro-12 .text_label-mbYH4L {
+  -webkit-text-stroke: 1px var(--astral);
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-kanit);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 52px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 3px;
+  width: auto;
+}
+
+.iphone-14-pro-12 .x-mbYH4L {
+  -webkit-text-stroke: 1px var(--astral);
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-kanit);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 52px;
+  letter-spacing: 0.00px;
+  line-height: normal;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  width: auto;
+}
+
+.iphone-14-pro-12 .icon-user-yoxXcI {
+  background-color: transparent;
+  height: 48px;
+  left: 9px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 90px;
+  width: 48px;
 }
 
 /* screen - menu */
@@ -638,165 +793,7 @@ margin-top: 10px;
   top: -2px;
   width: 227px;
 }
-
-/* screen - iphone-14-pro-12 */
-
-.iphone-14-pro-12 {
-  background-color: transparent;
-  border: 1px none;
-  cursor: pointer;
-  height: 932px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  overflow-x: hidden;
-  position: relative;
-  width: 430px;
-}
-
-#overlay-iphone-14-pro-12 {
-  align-items: center;
-  background-color: #ffffff00;
-  justify-content: center;
-}
-
-.iphone-14-pro-12 .i-phone-14-pro-12-TDn9Gw {
-  background-color: transparent;
-  height: 932px;
-  left: 0px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 430px;
-}
-
-.iphone-14-pro-12 .rectangle-1-yoxXcI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 85px;
-  left: 12px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 418px;
-}
-
-.iphone-14-pro-12 .mask-group-4-yoxXcI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 52px;
-  left: 18px;
-  position: absolute;
-  top: 17px;
-  width: 52px;
-}
-
-.iphone-14-pro-12 .mask-group-7-yoxXcI {
-  background-color: transparent;
-  height: 40px;
-  left: 362px;
-  position: absolute;
-  top: 23px;
-  width: 40px;
-}
-
-.iphone-14-pro-12 .icon-mail-yoxXcI {
-  background-color: transparent;
-  height: 40px;
-  left: 294px;
-  position: absolute;
-  top: 23px;
-  width: 40px;
-}
-
-.iphone-14-pro-12 .icon-notifications-yoxXcI {
-  background-color: transparent;
-  height: 40px;
-  left: 233px;
-  position: absolute;
-  top: 24px;
-  width: 33px;
-}
-
-.iphone-14-pro-12 .group-47-yoxXcI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 154px;
-  left: 9px;
-  position: absolute;
-  top: 85px;
-  width: 421px;
-}
-
-.iphone-14-pro-12 .group-46-37jfdX {
-  background-color: transparent;
-  height: 154px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 425px;
-}
-
-.iphone-14-pro-12 .rectangle-183-mbYH4L {
-  background-color: var(--white);
-  box-shadow: 0px 5px 9px #189487f0;
-  height: 154px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 421px;
-}
-
-.iphone-14-pro-12 .text_label-mbYH4L {
-  -webkit-text-stroke: 1px var(--astral);
-  background-color: transparent;
-  color: var(--black);
-  font-family: var(--font-family-kanit);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 52px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 3px;
-  width: auto;
-}
-
-.iphone-14-pro-12 .x-mbYH4L {
-  -webkit-text-stroke: 1px var(--astral);
-  background-color: transparent;
-  color: var(--black);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxxxl);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 52px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  width: auto;
-}
-
-.iphone-14-pro-12 .icon-user-yoxXcI {
-  background-color: transparent;
-  height: 48px;
-  left: 9px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 90px;
-  width: 48px;
-}
-// </style></head><body style="margin: 0;"><input type="hidden" id="anPageName" name="page" value="home"><div class="container-center-horizontal"><div class="home screen " data-id="5:166"><img class="meadow-gd08794248_1280-xl4bh6" data-id="5:167" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/meadow-gd08794248-1280.png" alt="meadow-gd08794248_1280"><div class="rectangle-8-xl4bh6" data-id="5:168"></div><img class="house-xl4bh6" data-id="5:169" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/house@2x.png" alt="house"><a onclick="ShowOverlay('iphone-14-pro-12', 'animate-appear');"><img class="newspaper-xl4bh6" data-id="5:170" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/newspaper@2x.png" alt="newspaper"></a><img class="news-xl4bh6" data-id="5:171" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/news@2x.png" alt="news"><a href="register"><img class="exit-xl4bh6" data-id="5:172" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/exit@2x.png" alt="exit"></a><div class="bg-head-xl4bh6" data-id="5:173"></div><img class="list" data-id="5:174" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/list@2x.png" alt="list"><a onclick="ShowOverlay('menu', 'animate-appear');"><img class="list-efo9xP list" data-id="5:175" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/list@2x.png" alt="list"></a><h1 class="my-website-xl4bh6" data-id="5:176">MY WEBSITE</h1><div class="my-websiteby-latte-xl4bh6" data-id="5:177">My Website<br>By Latte</div><img class="logo-eng-xl4bh6" data-id="5:178" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/logo-eng@2x.png" alt="LOGO Eng"></div></div><div id="overlay-menu" class="overlay-base"><div class="menu screen " data-id="5:519" onclick="window.open('javascript:history.back()', '_self');"><div class="menu-Cx8dt7" data-id="ZGQ15A3rcJtiqj2u"><img class="path-113-xrCniB" data-id="5:522" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/path-113.svg" alt="Path 113"><div class="component-1-1-xrCniB" data-id="5:525"><a href="admin1" onclick="window.event.stopPropagation()"><h1 class="x-bG97r1 kanit-normal-white-24px" data-id="I5:525;5:35">สั่งการ/เวียนทราบ</h1></a></div><div class="component-1-7-xrCniB" data-id="5:527"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-enrCfK text_label kanit-normal-white-24px" data-id="I5:527;5:35">รายงานการใช้กระดาษ</div></a></div><a href="iphone-14-pro-2" onclick="window.event.stopPropagation()"><div class="component-1-10-xrCniB" data-id="5:665"><a href="iphone-14-pro-2" onclick="window.event.stopPropagation()"><div class="text_label-MTfoKP text_label kanit-normal-white-24px" data-id="I5:665;5:35">ตั้งค่าผู้ใช้งาน</div></a></div></a><a href="login" onclick="window.event.stopPropagation()"><div class="component-1-11-xrCniB" data-id="5:667"><div class="text_label kanit-normal-white-24px" data-id="I5:667;5:35">ออกจากระบบ</div></div></a><img class="exit-xrCniB" data-id="5:523" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/exit-1@2x.png" alt="exit"><img class="id-card-xrCniB" data-id="5:524" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/id-card@2x.png" alt="id-card"><div class="component-1-5-xrCniB" data-id="5:529"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-Zr21BV text_label kanit-normal-white-24px" data-id="I5:529;5:35">เอกสารขออนุมัติ</div></a></div><div class="component-1-6-xrCniB" data-id="5:531"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-dYTrQT text_label kanit-normal-white-24px" data-id="I5:531;5:35">เอกสารส่งออก</div></a></div><div class="component-1-8-xrCniB" data-id="5:533"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-xttsEv text_label kanit-normal-white-24px" data-id="I5:533;5:35">เอกสารเวียนทราบ</div></a></div><div class="component-1-9-xrCniB" data-id="5:535"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-ItPkEG text_label kanit-normal-white-24px" data-id="I5:535;5:35">คลังเอกสาร</div></a></div></div></div></div><div id="overlay-iphone-14-pro-12" class="overlay-base"><div class="iphone-14-pro-12 screen " data-id="5:421" onclick="window.open('javascript:history.back()', '_self');"><div class="i-phone-14-pro-12-TDn9Gw" data-id="x0gcsUZzjioWvBcU"><a href="home" onclick="window.event.stopPropagation()"><img class="rectangle-1-yoxXcI" data-id="5:422" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/rectangle-1-6.png" alt="Rectangle 1"></a><a onclick="ShowOverlay('menu', 'animate-appear');window.event.stopPropagation()"><img class="mask-group-4-yoxXcI" data-id="5:443" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png" alt="Mask Group 4"></a><img class="mask-group-7-yoxXcI" data-id="5:445" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-7@2x.png" alt="Mask Group 7"><img class="icon-mail-yoxXcI" data-id="5:447" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-8@2x.png" alt="icon-mail"><img class="icon-notifications-yoxXcI" data-id="5:448" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-6@2x.png" alt="icon-notifications"><a href="iphone-14-pro-13" onclick="window.event.stopPropagation()"><div class="group-47-yoxXcI" data-id="5:450"><div class="group-46-37jfdX" data-id="5:449"><div class="rectangle-183-mbYH4L" data-id="5:438"></div><div class="text_label-mbYH4L" data-id="5:439">ฉัน</div><h1 class="x-mbYH4L" data-id="5:440"><br>งาน หนังสือแจ้งเตือนการแต่ง<br>กาย ประจำเดือน ก.ค.๖๓</h1></div></div></a><img class="icon-user-yoxXcI" data-id="5:441" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/icons8-user-60.png" alt="icon-user"></div></div></div><script src="launchpad-js/launchpad-banner.js" async></script><script defer src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js"></script><script>ShowOverlay = function (overlayName, animationName) {
+// </style></head><body style="margin: 0;"><input type="hidden" id="anPageName" name="page" value="home"><div class="container-center-horizontal"><div class="home screen " data-id="5:166"><img class="meadow-gd08794248_1280-xl4bh6" data-id="5:167" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/meadow-gd08794248-1280.png" alt="meadow-gd08794248_1280"><div class="rectangle-8-xl4bh6" data-id="5:168"></div><img class="house-xl4bh6" data-id="5:169" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/house@2x.png" alt="house"><a onclick="ShowOverlay('iphone-14-pro-12', 'animate-appear');"><img class="newspaper-xl4bh6" data-id="5:170" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/newspaper@2x.png" alt="newspaper"></a><img class="news-xl4bh6" data-id="5:171" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/news@2x.png" alt="news"><img class="exit-xl4bh6" data-id="5:172" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/exit@2x.png" alt="exit"><div class="bg-head-xl4bh6" data-id="5:173"></div><img class="list" data-id="5:174" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/list@2x.png" alt="list"><a onclick="ShowOverlay('menu', 'animate-appear');"><img class="list-efo9xP list" data-id="5:175" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/list@2x.png" alt="list"></a><h1 class="my-website-xl4bh6" data-id="5:176">MY WEBSITE</h1><div class="my-websiteby-latte-xl4bh6" data-id="5:177">My Website<br>By Latte</div><img class="logo-eng-xl4bh6" data-id="5:178" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/logo-eng@2x.png" alt="LOGO Eng"></div></div><div id="overlay-iphone-14-pro-12" class="overlay-base"><div class="iphone-14-pro-12 screen " data-id="5:421" onclick="window.open('javascript:history.back()', '_self');"><div class="i-phone-14-pro-12-TDn9Gw" data-id="g7HVuJQL4iGbzS0Y"><a href="home" onclick="window.event.stopPropagation()"><img class="rectangle-1-yoxXcI" data-id="5:422" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/rectangle-1-6.png" alt="Rectangle 1"></a><a onclick="ShowOverlay('menu', 'animate-appear');window.event.stopPropagation()"><img class="mask-group-4-yoxXcI" data-id="5:443" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png" alt="Mask Group 4"></a><img class="mask-group-7-yoxXcI" data-id="5:445" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-7@2x.png" alt="Mask Group 7"><img class="icon-mail-yoxXcI" data-id="5:447" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-8@2x.png" alt="icon-mail"><img class="icon-notifications-yoxXcI" data-id="5:448" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-6@2x.png" alt="icon-notifications"><a href="iphone-14-pro-13" onclick="window.event.stopPropagation()"><div class="group-47-yoxXcI" data-id="5:450"><div class="group-46-37jfdX" data-id="5:449"><div class="rectangle-183-mbYH4L" data-id="5:438"></div><div class="text_label-mbYH4L" data-id="5:439">ฉัน</div><h1 class="x-mbYH4L" data-id="5:440"><br>งาน หนังสือแจ้งเตือนการแต่ง<br>กาย ประจำเดือน ก.ค.๖๓</h1></div></div></a><img class="icon-user-yoxXcI" data-id="5:441" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/icons8-user-60.png" alt="icon-user"></div></div></div><div id="overlay-menu" class="overlay-base"><div class="menu screen " data-id="5:519" onclick="window.open('javascript:history.back()', '_self');"><div class="menu-Cx8dt7" data-id="DJSDgPqn4rzNxjN3"><img class="path-113-xrCniB" data-id="5:522" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/path-113.svg" alt="Path 113"><div class="component-1-1-xrCniB" data-id="5:525"><a href="admin1" onclick="window.event.stopPropagation()"><h1 class="x-bG97r1 kanit-normal-white-24px" data-id="I5:525;5:35">สั่งการ/เวียนทราบ</h1></a></div><div class="component-1-7-xrCniB" data-id="5:527"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-enrCfK text_label kanit-normal-white-24px" data-id="I5:527;5:35">รายงานการใช้กระดาษ</div></a></div><a href="iphone-14-pro-2" onclick="window.event.stopPropagation()"><div class="component-1-10-xrCniB" data-id="5:665"><a href="iphone-14-pro-2" onclick="window.event.stopPropagation()"><div class="text_label-MTfoKP text_label kanit-normal-white-24px" data-id="I5:665;5:35">ตั้งค่าผู้ใช้งาน</div></a></div></a><a href="login" onclick="window.event.stopPropagation()"><div class="component-1-11-xrCniB" data-id="5:667"><div class="text_label kanit-normal-white-24px" data-id="I5:667;5:35">ออกจากระบบ</div></div></a><img class="exit-xrCniB" data-id="5:523" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc62958bf9945b46827bd/img/exit-1@2x.png" alt="exit"><img class="id-card-xrCniB" data-id="5:524" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/id-card@2x.png" alt="id-card"><div class="component-1-5-xrCniB" data-id="5:529"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-Zr21BV text_label kanit-normal-white-24px" data-id="I5:529;5:35">เอกสารขออนุมัติ</div></a></div><div class="component-1-6-xrCniB" data-id="5:531"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-dYTrQT text_label kanit-normal-white-24px" data-id="I5:531;5:35">เอกสารส่งออก</div></a></div><div class="component-1-8-xrCniB" data-id="5:533"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-xttsEv text_label kanit-normal-white-24px" data-id="I5:533;5:35">เอกสารเวียนทราบ</div></a></div><div class="component-1-9-xrCniB" data-id="5:535"><a href="admin1" onclick="window.event.stopPropagation()"><div class="text_label-ItPkEG text_label kanit-normal-white-24px" data-id="I5:535;5:35">คลังเอกสาร</div></a></div></div></div></div><script src="launchpad-js/launchpad-banner.js" async></script><script defer src="https://animaapp.s3.amazonaws.com/static/restart-btn.min.js"></script><script>ShowOverlay = function (overlayName, animationName) {
 //   overlayName = 'overlay-' + overlayName;
 //   var cssClasses = document.getElementById(overlayName).className.split(' ');
 //   var last = cssClasses.slice(-1)[0];
