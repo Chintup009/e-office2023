@@ -4,9 +4,7 @@
 
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
 @import url("https://px.animaapp.com/641bb9a4a313ddb7c65285fa.641bb9a6e6fb3205cdfe66b9.LAExMVh.hch.png");
-a {
-  color: yellow;
-}
+
 
 .screen textarea:focus,
 .screen input:focus {
@@ -193,32 +191,7 @@ input:focus {
 * {
   box-sizing: border-box;
 }
-:root { 
-  --alloy-orange: #c56609;
-  --asphalt: #160b0b;
-  --astral: #2f84a4;
-  --black: #000000;
-  --blue-dianne: #214f61;
-  --blue-whale: #05314e;
-  --dove-gray: #707070;
-  --fantasy: #f9f2f2;
-  --gray-nurse: #eaecec;
-  --mosque: #047267;
-  --porcelain: #eff1f6;
-  --romance: #fffcfc;
-  --white: #ffffff;
- 
-  --font-size-l: 20px;
-  --font-size-m: 18px;
-  --font-size-xl: 22px;
-  --font-size-xxl: 24px;
-  --font-size-xxxl: 28px;
-  --font-size-xxxxl: 30px;
-  --font-size-xxxxxl: 40px;
- 
-  --font-family-inter: "Inter", Helvetica;
-  --font-family-kanit: "Kanit", Helvetica;
-}
+
 .inter-normal-white-20px {
   color: var(--white);
   font-family: var(--font-family-inter);
@@ -231,14 +204,6 @@ input:focus {
   color: var(--white);
   font-family: var(--font-family-kanit);
   font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.kanit-normal-asphalt-28px {
-  color: var(--asphalt);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -259,10 +224,10 @@ input:focus {
   font-weight: 400;
 }
 
-.inter-normal-white-18px {
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
+.kanit-normal-asphalt-28px {
+  color: var(--asphalt);
+  font-family: var(--font-family-kanit);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -271,6 +236,14 @@ input:focus {
   color: var(--romance);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.inter-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -288,12 +261,12 @@ input:focus {
   top: 0px;
   width: 87px;
 }
-/* screen - register */
+/* screen - menu */
 
-.register {
-  background: linear-gradient(180deg, rgba(0, 14.000000115484, 108.00000116229057, 0.9019607901573181) 0%, rgba(255, 255, 255, 0.4588235318660736) 0%, rgba(0, 12.000000234693289, 91.00000217556953, 0.7098039388656616) 100%);
-  background-color: rgba(255,255,255,1.0);
+.menu {
+  background-color: transparent;
   border: 1px none;
+  cursor: pointer;
   height: 932px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -302,213 +275,161 @@ input:focus {
   width: 430px;
 }
 
-.register .pexels-philippe-donn-1257860-Qolay1 {
+#overlay-menu {
+  align-items: center;
+  background-color: #ffffff00;
+  justify-content: center;
+}
+
+.menu .menu-Cx8dt7 {
   background-color: transparent;
   height: 932px;
   left: 0px;
   mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
+  overflow: hidden;
+  position: relative;
   top: 0px;
   width: 430px;
 }
 
-.register .rectangle-2-Qolay1 {
-  top: 332px;
-}
-
-.register .icon-user-Qolay1 {
-  top: 336px;
-}
-
-.register .text_label-Qolay1 {
-  top: 346px;
-}
-
-.register .rectangle-2-SVfk6o {
-  top: 416px;
-}
-
-.register .icon-user-SVfk6o {
-  top: 420px;
-}
-
-.register .text_label-SVfk6o {
-  top: 430px;
-}
-
-.register .rectangle-2-8KUxSO {
-  top: 498px;
-}
-
-.register .icon-user-8KUxSO {
-  top: 502px;
-}
-
-.register .text_label-8KUxSO {
-  top: 512px;
-}
-
-.register .rectangle-2-2Fyk8H {
-  top: 582px;
-}
-
-.register .icon-user-2Fyk8H {
-  top: 586px;
-}
-
-.register .rtarfmith-Qolay1 {
+.menu .path-113-xrCniB {
   background-color: transparent;
-  height: auto;
-  left: 125px;
-  letter-spacing: 0.00px;
-  line-height: normal;
+  height: 787px;
+  left: 12px;
   mix-blend-mode: normal;
-  opacity: 0.3;
   position: absolute;
-  text-align: left;
-  top: 596px;
-  width: 258px;
+  top: 20px;
+  width: 378px;
 }
 
-.register .rectangle-2-wcwcUJ {
-  top: 665px;
-}
-
-.register .icon-user-wcwcUJ {
-  top: 669px;
-}
-
-.register .password-Qolay1 {
+.menu .component-1-1-xrCniB {
   background-color: transparent;
-  height: auto;
-  left: 125px;
-  letter-spacing: 0.00px;
-  line-height: normal;
+  height: 35px;
+  left: 38px;
   mix-blend-mode: normal;
-  opacity: 0.3;
   position: absolute;
-  text-align: left;
-  top: 679px;
-  width: 258px;
+  top: 353px;
+  width: 227px;
 }
 
-.register .group-11-Qolay1 {
+.menu .x-bG97r1 {
+  -webkit-text-stroke: 1px var(--white);
   background-color: transparent;
   cursor: pointer;
-  height: 60px;
-  left: 94px;
-  position: absolute;
-  top: 760px;
-  width: 238px;
-}
-
-.register .rectangle-3-xxnOlO {
-  background-color: #ffc62b;
-  border: 1px solid;
-  border-color: var(--dove-gray);
-  border-radius: 7px;
-  height: 60px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 236px;
-}
-
-
-.register .register-xxnOlO {
-  background-color: transparent;
   height: auto;
-  left: 63px;
+  left: -1px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: 10px;
-  width: auto;
+  top: -2px;
+  width: 227px;
 }
 
-.register .have-an-account-logincreate-by-latte-Qolay1 {
+.menu .component-1-7-xrCniB {
   background-color: transparent;
-  color: transparent;
-  // cursor: pointer;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 68px;
-  letter-spacing: 0.00px;
-  line-height: normal;
+  height: 35px;
+  left: 38px;
+  mix-blend-mode: normal;
   position: absolute;
-  text-align: center;
-  top: 842px;
-  width: 293px;
+  top: 405px;
+  width: 227px;
 }
 
-.register .span0-MYnqHe {
-  font-style: normal;
-}
-
-.register .span1-MYnqHe {
-  color: var(--asphalt);
-  font-style: normal;
-}
-
-.register .span2-MYnqHe {
-  color: #ffed06;
-  font-style: normal;
-}
-
-.register .span3-MYnqHe {
-  color: #629df5;
-  font-style: normal;
-}
-
-.register .logo-eng-Qolay1 {
+.menu .component-1-10-xrCniB {
   background-color: transparent;
-  height: 228px;
-  left: 101px;
+  height: 35px;
+  left: 88px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 456px;
+  width: 227px;
+}
+
+.menu .component-1-11-xrCniB {
+  background-color: transparent;
+  height: 35px;
+  left: 88px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 502px;
+  width: 227px;
+}
+
+.menu .exit-xrCniB {
+  background-color: transparent;
+  height: 36px;
+  left: 40px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 43px;
-  width: 228px;
+  top: 502px;
+  width: 36px;
 }
 
-.register .icon-user {
+.menu .id-card-xrCniB {
   background-color: transparent;
-  height: 67px;
-  left: 25px;
+  height: 37px;
+  left: 38px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  width: 67px;
+  top: 455px;
+  width: 37px;
 }
 
-.register .rectangle-2 {
-  background-color: var(--porcelain);
-  border: 1px solid;
-  border-color: var(--dove-gray);
-  border-radius: 18px;
-  height: 75px;
-  left: 19px;
+.menu .component-1-5-xrCniB {
+  background-color: transparent;
+  height: 35px;
+  left: 38px;
   mix-blend-mode: normal;
   position: absolute;
-  width: 386px;
+  top: 301px;
+  width: 227px;
 }
 
-.register .text_label {
+.menu .component-1-6-xrCniB {
   background-color: transparent;
+  height: 35px;
+  left: 38px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 249px;
+  width: 227px;
+}
+
+.menu .component-1-8-xrCniB {
+  background-color: transparent;
+  height: 35px;
+  left: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 197px;
+  width: 227px;
+}
+
+.menu .component-1-9-xrCniB {
+  background-color: transparent;
+  height: 35px;
+  left: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 145px;
+  width: 227px;
+}
+
+.menu .text_label {
+  -webkit-text-stroke: 1px var(--white);
+  background-color: transparent;
+  cursor: pointer;
   height: auto;
-  left: 125px;
+  left: -1px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
-  opacity: 0.3;
   position: absolute;
   text-align: left;
-  width: 258px;
+  top: -2px;
+  width: 227px;
 }
