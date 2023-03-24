@@ -191,32 +191,8 @@ input:focus {
 * {
   box-sizing: border-box;
 }
-:root { 
-  --alloy-orange: #c56609;
-  --asphalt: #160b0b;
-  --astral: #2f84a4;
-  --black: #000000;
-  --blue-dianne: #214f61;
-  --blue-whale: #05314e;
-  --dove-gray: #707070;
-  --fantasy: #f9f2f2;
-  --gray-nurse: #eaecec;
-  --mosque: #047267;
-  --porcelain: #eff1f6;
-  --romance: #fffcfc;
-  --white: #ffffff;
- 
-  --font-size-l: 20px;
-  --font-size-m: 18px;
-  --font-size-xl: 22px;
-  --font-size-xxl: 24px;
-  --font-size-xxxl: 28px;
-  --font-size-xxxxl: 30px;
-  --font-size-xxxxxl: 40px;
- 
-  --font-family-inter: "Inter", Helvetica;
-  --font-family-kanit: "Kanit", Helvetica;
-}
+
+
 .inter-normal-white-20px {
   color: var(--white);
   font-family: var(--font-family-inter);

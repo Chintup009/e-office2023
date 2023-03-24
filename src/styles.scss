@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:400|Kanit:400");
+
+/* The following line is used to measure usage of this code in production. For more info see our usage billing page */
+@import url("https://px.animaapp.com/641bb9a4a313ddb7c65285fa.641bb9a6e6fb3205cdfe66b9.LAExMVh.hch.png");
+
+:root { 
+    --alloy-orange: #c56609;
+    --asphalt: #160b0b;
+    --astral: #2f84a4;
+    --black: #000000;
+    --blue-dianne: #214f61;
+    --blue-whale: #05314e;
+    --dove-gray: #707070;
+    --fantasy: #f9f2f2;
+    --gray-nurse: #eaecec;
+    --mosque: #047267;
+    --porcelain: #eff1f6;
+    --romance: #fffcfc;
+    --white: #ffffff;
+   
+    --font-size-l: 20px;
+    --font-size-m: 18px;
+    --font-size-xl: 22px;
+    --font-size-xxl: 24px;
+    --font-size-xxxl: 28px;
+    --font-size-xxxxl: 30px;
+    --font-size-xxxxxl: 40px;
+   
+    --font-family-inter: "Inter", Helvetica;
+    --font-family-kanit: "Kanit", Helvetica;
+}
