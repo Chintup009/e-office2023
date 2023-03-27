@@ -771,3 +771,22 @@ input:focus {
   top: 90px;
   width: 48px;
 }
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(61, 197, 251);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(94, 90, 90);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
