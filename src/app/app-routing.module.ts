@@ -13,8 +13,14 @@ import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { SplashComponent } from './splash/splash.component';
+<<<<<<< HEAD
 import { Users1Component } from './users1/users1.component';
 import { Users2Component } from './users2/users2.component';
+=======
+import { Users3Component } from './users3/users3.component';
+import { Users4Component } from './users4/users4.component';
+import { Users5Component } from './users5/users5.component';
+>>>>>>> origin/pitak
 
 
 const routes: Routes = [
@@ -22,6 +28,7 @@ const routes: Routes = [
   { path: "login", component: LoginComponent },
   { path: "register", component: RegisterComponent },
   { path: "menu", component: MenuComponent },
+<<<<<<< HEAD
   { path: "splash", component: SplashComponent },
 <<<<<<< HEAD
   { path: "admin2", component: Admin2Component },
@@ -34,6 +41,12 @@ const routes: Routes = [
   { path: "users1", component: Users1Component },
   { path: "users2", component: Users2Component },
 >>>>>>> origin/Peerapol
+=======
+  { path: "splash", component: SplashComponent },  
+  { path: "users3", component: Users3Component},  
+  { path: "users4", component: Users4Component },  
+  { path: "users5", component: Users5Component },  
+>>>>>>> origin/pitak
   { path: "", component: LoginComponent },
 
 ];

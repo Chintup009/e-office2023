@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { SplashComponent } from './splash/splash.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { Admin1Component } from './admin1/admin1.component';
 import { Admin2Component } from './admin2/admin2.component';
 import { Admin3Component } from './admin3/admin3.component';
@@ -20,6 +21,11 @@ import { Admin7Component } from './admin7/admin7.component';
 import { Users1Component } from './users1/users1.component';
 import { Users2Component } from './users2/users2.component';
 >>>>>>> origin/Peerapol
+=======
+import { Users3Component } from './users3/users3.component';
+import { Users4Component } from './users4/users4.component';
+import { Users5Component } from './users5/users5.component';
+>>>>>>> origin/pitak
 
 // import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -34,6 +40,7 @@ import { Users2Component } from './users2/users2.component';
     MenuComponent,
     SplashComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     Admin1Component,
     Admin2Component,
     Admin3Component,
@@ -45,6 +52,11 @@ import { Users2Component } from './users2/users2.component';
     Users1Component,
     Users2Component
 >>>>>>> origin/Peerapol
+=======
+    Users3Component,
+    Users4Component,
+    Users5Component
+>>>>>>> origin/pitak
   ],
   imports: [
     BrowserModule,
