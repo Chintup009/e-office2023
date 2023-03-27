@@ -2,6 +2,12 @@
 
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { Admin2Component } from './admin2/admin2.component';
+import { Admin3Component } from './admin3/admin3.component';
+import { Admin4Component } from './admin4/admin4.component';
+import { Admin5Component } from './admin5/admin5.component';
+import { Admin6Component } from './admin6/admin6.component';
+import { Admin7Component } from './admin7/admin7.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
@@ -15,6 +21,12 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "menu", component: MenuComponent },
   { path: "splash", component: SplashComponent },
+  { path: "admin2", component: Admin2Component },
+  { path: "admin3", component: Admin3Component },
+  { path: "admin4", component: Admin4Component },
+  { path: "admin5", component: Admin5Component },
+  { path: "admin6", component: Admin6Component },
+  { path: "admin7", component: Admin7Component },
   { path: "", component: LoginComponent },
 
 ];
