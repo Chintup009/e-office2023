@@ -13,6 +13,8 @@ import { LoginComponent } from './login/login.component';
 import { MenuComponent } from './menu/menu.component';
 import { RegisterComponent } from './register/register.component';
 import { SplashComponent } from './splash/splash.component';
+import { Users1Component } from './users1/users1.component';
+import { Users2Component } from './users2/users2.component';
 
 
 const routes: Routes = [
@@ -21,12 +23,17 @@ const routes: Routes = [
   { path: "register", component: RegisterComponent },
   { path: "menu", component: MenuComponent },
   { path: "splash", component: SplashComponent },
+<<<<<<< HEAD
   { path: "admin2", component: Admin2Component },
   { path: "admin3", component: Admin3Component },
   { path: "admin4", component: Admin4Component },
   { path: "admin5", component: Admin5Component },
   { path: "admin6", component: Admin6Component },
   { path: "admin7", component: Admin7Component },
+=======
+  { path: "users1", component: Users1Component },
+  { path: "users2", component: Users2Component },
+>>>>>>> origin/Peerapol
   { path: "", component: LoginComponent },
 
 ];
