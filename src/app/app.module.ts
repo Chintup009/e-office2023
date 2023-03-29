@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -19,6 +18,7 @@ import { Users4Component } from './users4/users4.component';
 import { Users5Component } from './users5/users5.component';
 import { Users1Component } from './users1/users1.component';
 import { Users2Component } from './users2/users2.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 // import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -46,8 +46,8 @@ import { Users2Component } from './users2/users2.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // FormsModule,
-    // ReactiveFormsModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
