@@ -1,24 +1,12 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import axios from 'axios';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent implements OnInit {
-  userData: any;
-  actionNumber: number = 1;
-  constructor() { }
+export class LoginComponent {
 
-  ngOnInit(): void {
-  }
-
-  openNav() {
-    //ความกว้างของ slide menu
-    //document.getElementById("mySidenav").style.width = "300px";
-  }
-
-  closeNav() {
-    //document.getElementById("mySidenav").style.width = "0";
-  }
 }
