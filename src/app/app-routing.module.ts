@@ -11,7 +11,7 @@ import { Admin6Component } from './admin6/admin6.component';
 import { Admin7Component } from './admin7/admin7.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { MenuComponent } from './menu/menu.component';
+
 import { RegisterComponent } from './register/register.component';
 import { SplashComponent } from './splash/splash.component';
 import { Users1Component } from './users1/users1.component';
@@ -25,7 +25,6 @@ const routes: Routes = [
   { path: "home", component: HomeComponent },
   { path: "login", component: LoginComponent },
   { path: "register", component: RegisterComponent },
-  { path: "menu", component: MenuComponent },
   { path: "splash", component: SplashComponent },
   { path: "admin1", component: Admin1Component },
   { path: "admin2", component: Admin2Component },

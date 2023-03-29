@@ -300,7 +300,8 @@ input:focus {
 }
 
 .admin2 .component-12-pK6JTh {
-  background-color: transparent;
+  background-color: rgba(14, 14, 66, 0.247);
+  color:#fffcfc;
   height: 39px;
   left: 176px;
   mix-blend-mode: normal;
@@ -311,7 +312,7 @@ input:focus {
 
 .admin2 .path-112-4lzrhS {
   background-color: transparent;
-  cursor: pointer;
+  // cursor: pointer;
   height: 39px;
   left: 0px;
   mix-blend-mode: normal;
@@ -381,10 +382,11 @@ input:focus {
 }
 
 .admin2 .text_label-pK6JTh {
-  -webkit-text-stroke: 1px var(--blue-dianne);
+  // -webkit-text-stroke: 1px var(--blue-dianne);
   background-color: transparent;
-  color: var(--fantasy);
-  font-family: var(--font-family-inter);
+  color: floralwhite;
+  font-family: var(--font-family-kanit);
+  // font-family: var(--font-family-inter);
   font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
@@ -682,3 +684,4 @@ input:focus {
   top: -2px;
   width: 227px;
 }
+
