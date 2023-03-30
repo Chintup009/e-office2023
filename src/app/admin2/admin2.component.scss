@@ -233,6 +233,14 @@ input:focus {
   font-weight: 400;
 }
 
+.kanit-normal-asphalt-28px {
+  color: var(--asphalt);
+  font-family: var(--font-family-kanit);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
 .kanit-normal-mosque-24px {
   color: var(--mosque);
   font-family: var(--font-family-kanit);
@@ -249,10 +257,10 @@ input:focus {
   font-weight: 400;
 }
 
-.kanit-normal-asphalt-28px {
-  color: var(--asphalt);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxxl);
+.inter-normal-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -261,14 +269,6 @@ input:focus {
   color: var(--romance);
   font-family: var(--font-family-inter);
   font-size: var(--font-size-xxxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.inter-normal-white-18px {
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -286,12 +286,11 @@ input:focus {
   top: 0px;
   width: 87px;
 }
-/* screen - home */
+/* screen - admin2 */
 
-.home {
-  background-color: transparent;
+.admin2 {
+  background-color: var(--white);
   border: 1px none;
-  cursor: pointer;
   height: 932px;
   mix-blend-mode: normal;
   overflow: hidden;
@@ -300,73 +299,33 @@ input:focus {
   width: 430px;
 }
 
-.home .meadow-gd08794248_1280-xl4bh6 {
+.admin2 .component-12-pK6JTh {
+  background-color: rgba(14, 14, 66, 0.247);
+  color:#fffcfc;
+  height: 39px;
+  left: 176px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 436px;
+  width: 98px;
+}
+
+.admin2 .path-112-4lzrhS {
   background-color: transparent;
-  height: 932px;
+  // cursor: pointer;
+  height: 39px;
   left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 430px;
-}
-
-.home .rectangle-8-xl4bh6 {
-  background-color: #031726;
-  height: 100px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 829px;
-  width: 430px;
-}
-
-.home .house-xl4bh6 {
-  background-color: transparent;
-  height: 62px;
-  left: 20px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 848px;
-  width: 72px;
-}
-
-.home .newspaper-xl4bh6 {
-  background-color: transparent;
-  cursor: pointer;
-  height: 63px;
-  left: 126px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 848px;
-  width: 73px;
-}
-
-.home .news-xl4bh6 {
-  background-color: transparent;
-  height: 62px;
-  left: 232px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 848px;
-  width: 71px;
-}
-
-.home .exit-xl4bh6 {
-  background-color: transparent;
-  height: 62px;
-  left: 339px;
   mix-blend-mode: normal;
   object-fit: cover;
   position: absolute;
-  top: 848px;
-  width: 72px;
+  top: 0px;
+  width: 98px;
 }
 
-.home .bg-head-xl4bh6 {
-  background-color: #d58332;
-  border: 1px solid;
-  border-color: var(--white);
-  height: 90px;
+.admin2 .rectangle-1-pK6JTh {
+  background-color: transparent;
+  cursor: pointer;
+  height: 85px;
   left: 0px;
   mix-blend-mode: normal;
   position: absolute;
@@ -374,71 +333,158 @@ input:focus {
   width: 430px;
 }
 
-.home .list-efo9xP {
+.admin2 .mask-group-4-pK6JTh {
+  background-color: transparent;
   cursor: pointer;
+  height: 52px;
+  left: 18px;
+  position: absolute;
+  top: 17px;
+  width: 52px;
 }
 
-.home .my-website-xl4bh6 {
+.admin2 .icon-notifications-pK6JTh {
   background-color: transparent;
-  color: #0c175b;
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxxxl);
+  height: 40px;
+  left: 233px;
+  position: absolute;
+  top: 24px;
+  width: 33px;
+}
+
+.admin2 .mask-group-7-pK6JTh {
+  background-color: transparent;
+  height: 40px;
+  left: 362px;
+  position: absolute;
+  top: 23px;
+  width: 40px;
+}
+
+.admin2 .pdf-pK6JTh {
+  background-color: transparent;
+  height: 115px;
+  left: 31px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 243px;
+  width: 366px;
+}
+
+.admin2 .icon-mail-pK6JTh {
+  background-color: transparent;
+  height: 40px;
+  left: 294px;
+  position: absolute;
+  top: 23px;
+  width: 40px;
+}
+
+.admin2 .text_label-pK6JTh {
+  // -webkit-text-stroke: 1px var(--blue-dianne);
+  background-color: transparent;
+  color: floralwhite;
+  font-family: var(--font-family-kanit);
+  // font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
   font-style: normal;
   font-weight: 400;
   height: auto;
-  left: 96px;
+  left: 201px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  text-shadow: 2px 5px 2.5px #00000029;
-  top: 19px;
-  width: 258px;
+  top: 434px;
+  width: auto;
 }
 
-.home .my-websiteby-latte-xl4bh6 {
-  -webkit-text-stroke: 1px var(--white);
-  margin-left : 5.5rem;
-  text-align: center;
+.admin2 .group-24-pK6JTh {
   background-color: transparent;
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: 1.5rem;
-  font-style: normal;
-  font-weight: 400;
+  height: 48px;
+  left: 79px;
+  position: absolute;
+  top: 171px;
+  width: 274px;
+}
+
+.admin2 .rectangle-101-pzKAxc {
+  background-color: var(--blue-whale);
+  border-radius: 22px;
+  height: 48px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 272px;
+}
+
+.admin2 .x1-pzKAxc {
+  -webkit-text-stroke: 1px var(--astral);
+  background-color: transparent;
   height: auto;
-  left: 1px;
+  left: 26px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
-  text-align: center;
-  text-shadow: 0px 3px 3px #00000029;
-  top: 595px;
-  width: 218px;
+  text-align: left;
+  top: 9px;
+  width: auto;
 }
 
-.home .logo-eng-xl4bh6 {
-  background-color: transparent;
-  height: 228px;
-  left: 101px;
+.admin2 .ellipse-15-pK6JTh {
+  background-color: var(--blue-whale);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 11px;
+  height: 22px;
+  left: 175px;
   mix-blend-mode: normal;
-  object-fit: cover;
   position: absolute;
-  top: 222px;
-  width: 228px;
+  top: 140px;
+  width: 22px;
 }
 
-.home .list {
-  background-color: transparent;
-  height: 46px;
-  left: 15px;
+.admin2 .ellipse-16-pK6JTh {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 11px;
+  height: 22px;
+  left: 241px;
   mix-blend-mode: normal;
-  object-fit: cover;
   position: absolute;
-  top: 24px;
-  width: 46px;
+  top: 140px;
+  width: 22px;
+}
+
+.admin2 .ellipse-14-pK6JTh {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 11px;
+  height: 22px;
+  left: 241px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 140px;
+  width: 22px;
+}
+
+.admin2 .ellipse-17-pK6JTh {
+  background-color: var(--white);
+  border: 1px solid;
+  border-color: var(--dove-gray);
+  border-radius: 11px;
+  height: 22px;
+  left: 209px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 140px;
+  width: 22px;
 }
 
 /* screen - menu */
@@ -456,9 +502,9 @@ input:focus {
 }
 
 #overlay-menu {
-  align-items: center;
+  align-items: start;
   background-color: #ffffff00;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .menu .menu-Cx8dt7 {
@@ -517,23 +563,33 @@ input:focus {
   width: 227px;
 }
 
+.menu .text_label-enrCfK {
+  cursor: pointer;
+}
+
 .menu .component-1-10-xrCniB {
   background-color: transparent;
+  cursor: pointer;
   height: 35px;
   left: 88px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 456px;
+  top: 455px;
   width: 227px;
+}
+
+.menu .text_label-MTfoKP {
+  cursor: pointer;
 }
 
 .menu .component-1-11-xrCniB {
   background-color: transparent;
+  cursor: pointer;
   height: 35px;
   left: 88px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 502px;
+  top: 501px;
   width: 227px;
 }
 
@@ -569,6 +625,10 @@ input:focus {
   width: 227px;
 }
 
+.menu .text_label-Zr21BV {
+  cursor: pointer;
+}
+
 .menu .component-1-6-xrCniB {
   background-color: transparent;
   height: 35px;
@@ -577,6 +637,10 @@ input:focus {
   position: absolute;
   top: 249px;
   width: 227px;
+}
+
+.menu .text_label-dYTrQT {
+  cursor: pointer;
 }
 
 .menu .component-1-8-xrCniB {
@@ -589,6 +653,10 @@ input:focus {
   width: 227px;
 }
 
+.menu .text_label-xttsEv {
+  cursor: pointer;
+}
+
 .menu .component-1-9-xrCniB {
   background-color: transparent;
   height: 35px;
@@ -599,10 +667,13 @@ input:focus {
   width: 227px;
 }
 
+.menu .text_label-ItPkEG {
+  cursor: pointer;
+}
+
 .menu .text_label {
   -webkit-text-stroke: 1px var(--white);
   background-color: transparent;
-  cursor: pointer;
   height: auto;
   left: -1px;
   letter-spacing: 0.00px;
@@ -612,181 +683,5 @@ input:focus {
   text-align: left;
   top: -2px;
   width: 227px;
-}
-
-/* screen - iphone-14-pro-12 */
-
-.iphone-14-pro-12 {
-  background-color: transparent;
-  border: 1px none;
-  cursor: pointer;
-  height: 932px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  overflow-x: hidden;
-  position: relative;
-  width: 430px;
-}
-
-#overlay-iphone-14-pro-12 {
-  align-items: center;
-  background-color: #ffffff00;
-  justify-content: center;
-}
-
-.iphone-14-pro-12 .i-phone-14-pro-12-TDn9Gw {
-  background-color: transparent;
-  height: 932px;
-  left: 0px;
-  mix-blend-mode: normal;
-  overflow: hidden;
-  position: relative;
-  top: 0px;
-  width: 430px;
-}
-
-.iphone-14-pro-12 .rectangle-1-yoxXcI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 85px;
-  left: 12px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 418px;
-}
-
-.iphone-14-pro-12 .mask-group-4-yoxXcI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 52px;
-  left: 18px;
-  position: absolute;
-  top: 17px;
-  width: 52px;
-}
-
-.iphone-14-pro-12 .mask-group-7-yoxXcI {
-  background-color: transparent;
-  height: 40px;
-  left: 362px;
-  position: absolute;
-  top: 23px;
-  width: 40px;
-}
-
-.iphone-14-pro-12 .mask-group-8-yoxXcI {
-  background-color: transparent;
-  height: 40px;
-  left: 294px;
-  position: absolute;
-  top: 23px;
-  width: 40px;
-}
-
-.iphone-14-pro-12 .mask-group-6-yoxXcI {
-  background-color: transparent;
-  height: 40px;
-  left: 233px;
-  position: absolute;
-  top: 24px;
-  width: 33px;
-}
-
-.iphone-14-pro-12 .group-47-yoxXcI {
-  background-color: transparent;
-  cursor: pointer;
-  height: 154px;
-  left: 9px;
-  position: absolute;
-  top: 85px;
-  width: 421px;
-}
-
-.iphone-14-pro-12 .group-46-37jfdX {
-  background-color: transparent;
-  height: 154px;
-  left: 0px;
-  position: relative;
-  top: 0px;
-  width: 425px;
-}
-
-.iphone-14-pro-12 .rectangle-183-mbYH4L {
-  background-color: var(--white);
-  box-shadow: 0px 5px 9px #189487f0;
-  height: 154px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 421px;
-}
-
-.iphone-14-pro-12 .text_label-mbYH4L {
-  -webkit-text-stroke: 1px var(--astral);
-  background-color: transparent;
-  color: var(--black);
-  font-family: var(--font-family-kanit);
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 52px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 3px;
-  width: auto;
-}
-
-.iphone-14-pro-12 .x-mbYH4L {
-  -webkit-text-stroke: 1px var(--astral);
-  background-color: transparent;
-  color: var(--black);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxxxl);
-  font-style: normal;
-  font-weight: 400;
-  height: auto;
-  left: 52px;
-  letter-spacing: 0.00px;
-  line-height: normal;
-  mix-blend-mode: normal;
-  position: absolute;
-  text-align: left;
-  top: 2px;
-  width: auto;
-}
-
-.iphone-14-pro-12 .icons8-user-60-yoxXcI {
-  background-color: transparent;
-  height: 48px;
-  left: 9px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 90px;
-  width: 48px;
-}
-
-a:visited {
-  color: rgb(255, 255, 255);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgb(61, 197, 251);
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: rgb(94, 90, 90);
-  background-color: transparent;
-  text-decoration: underline;
 }
 

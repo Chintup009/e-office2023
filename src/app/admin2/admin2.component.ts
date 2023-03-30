@@ -1,24 +1,14 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  selector: 'app-admin2',
+  templateUrl: './admin2.component.html',
+  styleUrls: ['./admin2.component.scss']
 })
-export class HomeComponent {
+export class Admin2Component {
   constructor() { }
 
   ngOnInit(): void {
-  }
-
-  closeNav() {
-    const mySidenav = document.getElementById(
-      'mySidenav',
-    ) as HTMLInputElement | null;
-
-    if (mySidenav != null) {
-      mySidenav.style.width = "0";
-    }
   }
 
   openNav() {
@@ -28,7 +18,17 @@ export class HomeComponent {
     ) as HTMLInputElement | null;
 
     if (mySidenav != null) {
-      mySidenav.style.width = "300px";
+      mySidenav.style.width = "250px";
+    }
+  }
+
+  closeNav() {
+    const mySidenav = document.getElementById(
+      'mySidenav',
+    ) as HTMLInputElement | null;
+
+    if (mySidenav != null) {
+      mySidenav.style.width = "0";
     }
   }
 }
