@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:400|Kanit:400");
 
 /* The following line is used to measure usage of this code in production. For more info see our usage billing page */
-@import url("https://px.animaapp.com/641bb9a4a313ddb7c65285fa.641bb9a6e6fb3205cdfe66b9.LAExMVh.hch.png");
+@import url("https://px.animaapp.com/641bb96a2207eb244e6e7bb2.641bb96b35f640a2b81c50ff.mqO27BG.hch.png");
 
 
 .screen textarea:focus,
@@ -191,11 +191,35 @@ input:focus {
 * {
   box-sizing: border-box;
 }
-
+:root { 
+  --astral: #2f84a4;
+  --black: #000000;
+  --blue-dianne: #214f61;
+  --camarone: #006120;
+  --charm: #d86194;
+  --clairvoyant: #4c054e;
+  --dove-gray: #707070;
+  --fantasy: #f9f2f2;
+  --pizza: #d19e12;
+  --razzmatazz: #c5095a;
+  --romance: #fffcfc;
+  --white: #ffffff;
+ 
+  --font-size-l: 22px;
+  --font-size-m: 20px;
+  --font-size-s: 18px;
+  --font-size-xl: 24px;
+  --font-size-xxl: 28px;
+  --font-size-xxxl: 30px;
+  --font-size-xxxxl: 40px;
+ 
+  --font-family-inter: "Inter", Helvetica;
+  --font-family-kanit: "Kanit", Helvetica;
+}
 .inter-normal-white-20px {
   color: var(--white);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -203,31 +227,15 @@ input:focus {
 .kanit-normal-white-24px {
   color: var(--white);
   font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-style: normal;
   font-weight: 400;
 }
 
-.kanit-normal-mosque-24px {
-  color: var(--mosque);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.inter-normal-asphalt-28px {
-  color: var(--asphalt);
+.inter-normal-black-20px {
+  color: var(--black);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.kanit-normal-asphalt-28px {
-  color: var(--asphalt);
-  font-family: var(--font-family-kanit);
-  font-size: var(--font-size-xxxl);
+  font-size: var(--font-size-m);
   font-style: normal;
   font-weight: 400;
 }
@@ -235,15 +243,7 @@ input:focus {
 .inter-normal-romance-28px {
   color: var(--romance);
   font-family: var(--font-family-inter);
-  font-size: var(--font-size-xxxl);
-  font-style: normal;
-  font-weight: 400;
-}
-
-.inter-normal-white-18px {
-  color: var(--white);
-  font-family: var(--font-family-inter);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-xxl);
   font-style: normal;
   font-weight: 400;
 }
@@ -252,18 +252,9 @@ input:focus {
 }
 
 
-.rectangle-180 {
-  background-color: var(--blue-whale);
-  height: 31px;
-  left: 0px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 0px;
-  width: 87px;
-}
-/* screen - menu */
+/* screen - users1 */
 
-.menu {
+.users1 {
   background-color: transparent;
   border: 1px none;
   cursor: pointer;
@@ -275,13 +266,13 @@ input:focus {
   width: 430px;
 }
 
-#overlay-menu {
+#overlay-users1 {
   align-items: center;
   background-color: #ffffff00;
   justify-content: center;
 }
 
-.menu .menu-Cx8dt7 {
+.users1 .users1-lXhXlp {
   background-color: transparent;
   height: 932px;
   left: 0px;
@@ -292,144 +283,129 @@ input:focus {
   width: 430px;
 }
 
-.menu .path-113-xrCniB {
+.users1 .rectangle-1-dxejsc {
   background-color: transparent;
-  height: 787px;
+  cursor: pointer;
+  height: 85px;
   left: 12px;
   mix-blend-mode: normal;
   position: absolute;
-  top: 20px;
-  width: 378px;
+  top: 0px;
+  width: 418px;
 }
 
-.menu .component-1-1-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 38px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 353px;
-  width: 227px;
-}
-
-.menu .x-bG97r1 {
-  -webkit-text-stroke: 1px var(--white);
+.users1 .mask-group-4-dxejsc {
   background-color: transparent;
   cursor: pointer;
+  height: 52px;
+  left: 18px;
+  position: absolute;
+  top: 17px;
+  width: 52px;
+}
+
+.users1 .mask-group-7-dxejsc {
+  background-color: transparent;
+  height: 40px;
+  left: 362px;
+  position: absolute;
+  top: 23px;
+  width: 40px;
+}
+
+.users1 .mask-group-8-dxejsc {
+  background-color: transparent;
+  height: 40px;
+  left: 294px;
+  position: absolute;
+  top: 23px;
+  width: 40px;
+}
+
+.users1 .mask-group-6-dxejsc {
+  background-color: transparent;
+  height: 40px;
+  left: 233px;
+  position: absolute;
+  top: 24px;
+  width: 33px;
+}
+
+.users1 .group-47-dxejsc {
+  background-color: transparent;
+  cursor: pointer;
+  height: 154px;
+  left: 9px;
+  position: absolute;
+  top: 85px;
+  width: 421px;
+}
+
+.users1 .group-46-GTLhYi {
+  background-color: transparent;
+  height: 154px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 425px;
+}
+
+.users1 .rectangle-183-Z9Ppwr {
+  background-color: var(--white);
+  box-shadow: 0px 5px 9px #ff0000f0;
+  height: 154px;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 421px;
+}
+
+.users1 .text_label-Z9Ppwr {
+  -webkit-text-stroke: 1px var(--astral);
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-kanit);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
   height: auto;
-  left: -1px;
+  left: 52px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: -2px;
-  width: 227px;
+  top: 3px;
+  width: auto;
 }
 
-.menu .component-1-7-xrCniB {
+.users1 .x-Z9Ppwr {
+  -webkit-text-stroke: 1px var(--astral);
   background-color: transparent;
-  height: 35px;
-  left: 38px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 405px;
-  width: 227px;
-}
-
-.menu .component-1-10-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 88px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 456px;
-  width: 227px;
-}
-
-.menu .component-1-11-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 88px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 502px;
-  width: 227px;
-}
-
-.menu .exit-xrCniB {
-  background-color: transparent;
-  height: 36px;
-  left: 40px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 502px;
-  width: 36px;
-}
-
-.menu .id-card-xrCniB {
-  background-color: transparent;
-  height: 37px;
-  left: 38px;
-  mix-blend-mode: normal;
-  object-fit: cover;
-  position: absolute;
-  top: 455px;
-  width: 37px;
-}
-
-.menu .component-1-5-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 38px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 301px;
-  width: 227px;
-}
-
-.menu .component-1-6-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 38px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 249px;
-  width: 227px;
-}
-
-.menu .component-1-8-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 40px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 197px;
-  width: 227px;
-}
-
-.menu .component-1-9-xrCniB {
-  background-color: transparent;
-  height: 35px;
-  left: 40px;
-  mix-blend-mode: normal;
-  position: absolute;
-  top: 145px;
-  width: 227px;
-}
-
-.menu .text_label {
-  -webkit-text-stroke: 1px var(--white);
-  background-color: transparent;
-  cursor: pointer;
+  color: var(--black);
+  font-family: var(--font-family-kanit);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
   height: auto;
-  left: -1px;
+  left: 52px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
   position: absolute;
   text-align: left;
-  top: -2px;
-  width: 227px;
+  top: 2px;
+  width: auto;
+}
+
+.users1 .icons8-user-60-dxejsc {
+  background-color: transparent;
+  height: 48px;
+  left: 9px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  position: absolute;
+  top: 90px;
+  width: 48px;
 }

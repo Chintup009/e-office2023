@@ -1,24 +1,38 @@
-import { Component, OnInit } from "@angular/core";
+import { Component } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import axios from 'axios';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent implements OnInit {
-  userData: any;
-  actionNumber: number = 1;
-  constructor() { }
+export class LoginComponent {
 
-  ngOnInit(): void {
+  public nameForm: FormGroup;
+  constructor(private formBuilder: FormBuilder) {
+    this.nameForm = this.formBuilder.group({
+      email: '',
+      password: '',
+    });
   }
 
-  openNav() {
-    //ความกว้างของ slide menu
-    //document.getElementById("mySidenav").style.width = "300px";
-  }
+  login() {
+    let data = {
+      "userEmail": this.nameForm.get('email')?.value,
+      "Password": this.nameForm.get('password')?.value
+    }
+    console.log(data);
 
-  closeNav() {
-    //document.getElementById("mySidenav").style.width = "0";
+    axios.get("http://10.104.6.212:1337/api/rtarf-user-register-g1s?filters[userEmail][$eq]=" + this.nameForm.get('email')?.value).then(res => {
+      console.log(res.data);
+      if (res.data.data.length > 0) {
+        window.location.href = "/home"
+      } else {
+        alert("email หรือรหัสผ่านผิด")
+      }
+
+
+    })
   }
 }
