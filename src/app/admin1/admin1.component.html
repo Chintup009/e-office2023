@@ -1,4 +1,4 @@
-<div class="admin1 screen " data-id="1:371" onclick="window.open('admin2', '_self');"><a href="home"
+<div class="admin1 screen " data-id="1:371"><a href="home"
     onclick="window.event.stopPropagation()"><img class="rectangle-1-SEy3N6" data-id="1:372"
       src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641d444317418295c14b37c7/img/rectangle-1-1.png"
       anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641d444317418295c14b37c7/img/rectangle-1-1.png"
@@ -48,4 +48,24 @@
   <div class="ellipse-16-SEy3N6" data-id="1:398"></div>
   <div class="ellipse-14-SEy3N6" data-id="1:399"></div>
   <div class="ellipse-17-SEy3N6" data-id="1:400"></div>
+  <form style="position: absolute;" [formGroup]="myForm" (ngSubmit)="uploadFile()">
+    <div class="form-group">
+        <label for="file">File</label>
+        <input 
+            formControlName="file"
+            id="file" 
+            type="file" 
+            class="form-control"
+            (change)="onFileChange($event)">
+    </div>
+          
+    <button class="btn btn-primary" type="submit">Submit</button>
+  </form>
+  <div style="opacity: 1;  top: 88px;  left: 20px; position: absolute;">
+    <ul>
+      <li *ngFor="let myFile of files; index as i; first as isFirst">
+        {{i}}.{{myFile}}
+      </li>
+  </ul>
+  </div>
 </div>
