@@ -518,5 +518,14 @@ input:focus {
   // background-color: #2f84a4;
   // color: #000000;
   margin : auto ;
-  // padding : 50px;
+  // padding : 150px;
+}
+
+.btn.btn-primary {
+  background-color: #97c923;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
 }
