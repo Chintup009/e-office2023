@@ -1,10 +1,24 @@
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a href="home">หน้าหลัก</a>
+  <a href="#"><i class="fas fa-comment-medical fa-lg mr-2"></i>คลังเอกสาร</a>
+  <a href="#">เอกสารเวียนทราบ</a>
+  <a href="#">เอกสารส่งออก</a>
+  <a href="#">เอกสารขออนุมัติ</a>
+  <a href="admin1">สั่งการ/เวียนทราบ</a>
+  <a href="#">รายงานการใช้กระดาษ</a>
+  <a href="#">ตั้งค่าผู้ใช้งาน</a>
+  <a href=".">ออกจากระบบ</a>
+</div>
+
 <div class="admin6 screen " data-id="1:39"><img class="rectangle-1-wTYrxP" data-id="1:40"
     src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641d444317418295c14b37c7/img/rectangle-1-4.png"
     anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641d444317418295c14b37c7/img/rectangle-1-4.png"
-    alt="Rectangle 1"><a href="menu"><img class="mask-group-4-wTYrxP" data-id="1:67"
-      src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
-      anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
-      alt="Mask Group 4"></a><img class="mask-group-6-wTYrxP" data-id="1:72"
+    alt="Rectangle 1">
+  <img (click)="openNav()" class="mask-group-4-wTYrxP" data-id="1:67"
+    src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
+    anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
+    alt="Mask Group 4"><img class="mask-group-6-wTYrxP" data-id="1:72"
     src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-6@2x.png"
     anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-6@2x.png"
     alt="Mask Group 6"><a href="home"><img class="mask-group-7-wTYrxP" data-id="1:69"
@@ -26,7 +40,7 @@
     </div>
   </a><a href="admin7">
     <div class="group-30-wTYrxP" data-id="1:74">
-      <div class="rectangle-180" data-id="1:59"></div>
+      <!-- <div class="rectangle-180" data-id="1:59"></div> -->
       <div class="text_label-NlcjPZ text_label inter-normal-white-20px" data-id="1:60">ส่ง</div>
     </div>
   </a>

@@ -18,7 +18,7 @@ export class Admin2Component {
     ) as HTMLInputElement | null;
 
     if (mySidenav != null) {
-      mySidenav.style.width = "250px";
+      mySidenav.style.width = "276px";
     }
   }
 

@@ -1,17 +1,31 @@
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+  <a href="home">หน้าหลัก</a>
+  <a href="#"><i class="fas fa-comment-medical fa-lg mr-2"></i>คลังเอกสาร</a>
+  <a href="#">เอกสารเวียนทราบ</a>
+  <a href="#">เอกสารส่งออก</a>
+  <a href="#">เอกสารขออนุมัติ</a>
+  <!-- <a href="admin1">สั่งการ/เวียนทราบ</a> -->
+  <a href="#">รายงานการใช้กระดาษ</a>
+  <a href="#">ตั้งค่าผู้ใช้งาน</a>
+  <a href=".">ออกจากระบบ</a>
+</div>
+
+
 <div class="admin1 screen " data-id="1:371"><a href="home" onclick="window.event.stopPropagation()"><img
       class="rectangle-1-SEy3N6" data-id="1:372"
       src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641d444317418295c14b37c7/img/rectangle-1-1.png"
       anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641d444317418295c14b37c7/img/rectangle-1-1.png"
       alt="Rectangle 1"></a><a href="admin2" onclick="window.event.stopPropagation()">
     <div class="component-11-SEy3N6" data-id="1:23">
-      <div class="rectangle-178-F1fatn" data-id="1:5"></div>
-      <h1 class="text_label-F1fatn" data-id="1:6">ถัดไป</h1>
+      <!-- <div class="rectangle-178-F1fatn" data-id="1:5"></div> -->
+      <h1 class="text_label-F1fatn" data-id="1:6" style="text-align: center;">ถัดไป</h1>
     </div>
-  </a><a onclick="ShowOverlay('menu', 'animate-appear');window.event.stopPropagation()"><img class="mask-group-4-SEy3N6"
-      data-id="1:402"
-      src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
-      anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
-      alt="Mask Group 4"></a><img class="icon-mail-SEy3N6 icon-mail" data-id="1:404"
+  </a><img (click)="openNav()" class="mask-group-4-SEy3N6" data-id="1:402"
+    src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
+    anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-4@2x.png"
+    alt="Mask Group 4">
+  <img class="icon-mail-SEy3N6 icon-mail" data-id="1:404"
     src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-7@2x.png"
     anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-7@2x.png"
     alt="icon-mail"><img class="icon-mail-QTTaQc icon-mail" data-id="1:406"
@@ -22,10 +36,12 @@
   <div class="rectangle-160-SEy3N6" data-id="1:389"></div><img class="icon-notifications-SEy3N6" data-id="1:407"
     src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-6@2x.png"
     anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/mask-group-6@2x.png"
-    alt="icon-notifications"><img class="create_step1-SEy3N6" data-id="1:390"
+    alt="icon-notifications">
+  <!-- <img class="create_step1-SEy3N6" data-id="1:390"
     src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/create-step1@2x.png"
     anima-src="https://cdn.animaapp.com/projects/641bb9a6a313ddb7c65285fd/releases/641bc01316866ff49c2b0a5a/img/create-step1@2x.png"
-    alt="create_step1"><a href="admin2" onclick="window.event.stopPropagation()">
+    alt="create_step1"> -->
+  <a href="admin2" onclick="window.event.stopPropagation()">
     <div class="group-28-SEy3N6" data-id="1:409">
       <div class="group-27-0zH38c" data-id="1:408">
         <div class="ellipse-9-vMXyqW" data-id="1:392"></div>
@@ -49,12 +65,13 @@
   <div class="ellipse-14-SEy3N6" data-id="1:399"></div>
   <div class="ellipse-17-SEy3N6" data-id="1:400"></div>
 
-  <form style="position: absolute;" [formGroup]="myForm" (ngSubmit)="uploadFile()">
+  <form style="position: absolute; top: 280px; left: 80px; text-align: center; " [formGroup]="myForm"
+    (ngSubmit)="uploadFile()">
     <div class="form-group">
       <label for="file">File</label>
       <input formControlName="file" id="file" type="file" class="form-control" (change)="onFileChange($event)">
     </div>
-
+    <br>
     <button class="btn btn-primary" type="submit">Submit</button>
   </form>
   <div style="opacity: 1;  top: 88px;  left: 20px; position: absolute;">

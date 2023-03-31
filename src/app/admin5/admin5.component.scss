@@ -270,6 +270,7 @@ input:focus {
   position: absolute;
   top: 17px;
   width: 52px;
+  cursor: pointer;
 }
 
 .admin5 .icon-notifications-FgqcZh {
@@ -438,22 +439,25 @@ input:focus {
   width: 89px;
 }
 
-.admin5 .text_label-fPk94v {
-  left: 5px;
-}
+// .admin5 .text_label-fPk94v {
+//   left: 5px;
+  
+// }
 
-.admin5 .group-30-FgqcZh {
-  background-color: transparent;
-  cursor: pointer;
-  height: 31px;
-  left: 317px;
-  position: absolute;
-  top: 429px;
-  width: 89px;
-}
+// .admin5 .group-30-FgqcZh {
+//   background-color: #00cc44;
+//   cursor: pointer;
+//   height: 31px;
+//   left: 317px;
+//   position: absolute;
+//   top: 429px;
+//   width: 200px;
+// }
 
 .admin5 .text_label-BvNSGK {
+  top : 5px;
   left: 18px;
+  color: #040358;
 }
 
 .admin5 .ellipse-15-FgqcZh {
@@ -529,5 +533,31 @@ input:focus {
   padding: 20px;
   cursor: pointer;
   border-radius: 10px;
-  
+}
+
+// .next{
+//   color: rgb(0, 0, 0);
+//   font-size: 1rem;
+//   font-weight: bold;
+//   padding: 20px;
+//   cursor: pointer;
+//   border-radius: 10px;
+// }
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(61, 197, 251);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(94, 90, 90);
+  background-color: transparent;
+  text-decoration: underline;
 }

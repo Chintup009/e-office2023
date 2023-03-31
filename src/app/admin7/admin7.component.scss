@@ -272,6 +272,7 @@ input:focus {
   position: absolute;
   top: 17px;
   width: 52px;
+  cursor: pointer;
 }
 
 .admin7 .mask-group-6-hxgLoP {
@@ -381,7 +382,7 @@ input:focus {
   mix-blend-mode: normal;
   position: absolute;
   text-align: center;
-  top: 565px;
+  top: 575px;
   width: auto;
 }
 
@@ -417,4 +418,22 @@ input:focus {
   text-align: left;
   top: 9px;
   width: auto;
+}
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(61, 197, 251);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(94, 90, 90);
+  background-color: transparent;
+  text-decoration: underline;
 }

@@ -380,10 +380,12 @@ input:focus {
   top: 23px;
   width: 40px;
 }
-
-.admin2 .text_label-pK6JTh {
+ .text_label-pK6JTh {
   // -webkit-text-stroke: 1px var(--blue-dianne);
-  background-color: transparent;
+
+  background-color: #0e2294;
+  padding: 10px;
+  border-radius: 1rem;
   color: floralwhite;
   font-family: var(--font-family-kanit);
   // font-family: var(--font-family-inter);
@@ -391,7 +393,7 @@ input:focus {
   font-style: normal;
   font-weight: 400;
   height: auto;
-  left: 201px;
+  left: 180px;
   letter-spacing: 0.00px;
   line-height: normal;
   mix-blend-mode: normal;
@@ -684,4 +686,23 @@ input:focus {
   top: -2px;
   width: 227px;
 }
+
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(61, 197, 251);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(94, 90, 90);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
